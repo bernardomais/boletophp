@@ -31,6 +31,7 @@
 // Os valores abaixo podem ser colocados manualmente ou ajustados p/ formulário c/ POST, GET ou de BD (MySql,Postgre,etc)	//
 
 // DADOS DO BOLETO PARA O SEU CLIENTE
+$teste_ucb = true;
 $dias_de_prazo_para_pagamento = 5;
 $taxa_boleto = 2.95;
 $data_venc = date("d/m/Y", time() + ($dias_de_prazo_para_pagamento * 86400));  // Prazo de X dias OU informe data: "13/04/2006"; 
